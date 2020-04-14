@@ -10,7 +10,7 @@
     </parent>
     <groupId>org.llucbb</groupId>
     <artifactId>rabbitmq-consumer-two</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0-SNAPSHOT</version>
     <name>rabbitmq-consumer-two</name>
     <description>RabbitMQ consumer two</description>
 
@@ -19,6 +19,13 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.llucbb</groupId>
+            <artifactId>rebbitmq-model-two</artifactId>
+            <version>0-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>

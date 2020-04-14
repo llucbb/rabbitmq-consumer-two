@@ -1,7 +1,7 @@
 package org.llucbb.rabbitmqconsumertwo.consumer;
 
 import lombok.extern.slf4j.Slf4j;
-import org.llucbb.rabbitmqconsumertwo.entity.DummyMessage;
+import org.llucbb.rabbitmqmodeltwo.entity.DummyMessage;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 
